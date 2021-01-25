@@ -63,3 +63,6 @@
 
 ## 将本地仓库和远程仓库关联
 - git remote add origin https://github.com/a646757947/GP5.git   (后面这个地址就是自己的远程仓库地址)
+
+## 其他人修改
+。。。。。
