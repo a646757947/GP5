@@ -39,4 +39,27 @@
 
 ## 本地操作关键步骤
 1. git init (只有第一次需要操作，有.git文件夹的时候就不要操作了)
-2. 
+2. git add .
+3. git commit -m '注释'
+4. git status 
+  查看工作区和暂存区状态（增删改查）
+
+## 查看日志
+- git log  完整版日志
+- git reflog  简单版日志
+
+## 版本回退
+- git reset --hard HEAD^  回退到
+- git reset --hard 版本号前7位数
+- 注意把当前代码先提交到本地仓库
+- 工作区的代码自动变成恢复的指定版本
+
+## 查看变动
+- git diff 文件名
+- 会列出该文件前后的差异
+
+## 创建远程仓库
+- 进入gitHub官网，创建一个新的远程仓库
+
+## 将本地仓库和远程仓库关联
+- git remote add origin https://github.com/a646757947/GP5.git   (后面这个地址就是自己的远程仓库地址)
